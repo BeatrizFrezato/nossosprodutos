@@ -1,0 +1,111 @@
+.textoinicial {
+    color: black;
+    font-size: 25px;
+}
+
+.texto{
+    color: gray;
+    max-width: 250px;
+    font-size: 15px;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(227, 225, 225);
+}
+
+.containertitulo {
+  font-family: Arial, sans-serif;
+  background-color: rgb(227, 225, 225);
+}
+
+.bloco-destaque {
+  display: flex;
+  align-items: center; /* Alinha o texto e a imagem verticalmente */
+  gap: 20px; /* Espaçamento entre o texto e a imagem */
+  margin-bottom: 40px;
+  /*justify-content: flex-start; /* Alinha à esquerda */
+}
+
+.imagem-destaque {
+  width: 250px; /* Aumenta o tamanho da imagem */
+  height: auto;
+  border-radius: 8px;
+}
+
+.imagem-logo {
+  width: 120px; /* Aumenta o tamanho da imagem */
+  height: auto;
+
+}
+
+.imagem-link{
+  width: 25px; /* Aumenta o tamanho da imagem */
+  height: auto;
+}
+
+.textonumero {
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.textoSubtitulo {
+    color: black;
+}
+
+.secao {
+   padding: 24px;
+}
+
+.faixa {
+    width: 100%;
+    height: 60px;
+    background-color: red; /* Cor azul */
+    text-align: center;
+    line-height: 60px; /* Centraliza o texto verticalmente */
+    color: white;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: white;
+}
+
+.link {
+  color: gray;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+nav a {
+  margin: 15px;
+  text-decoration: none;
+}
+
+.containercontato {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: white;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-between; /* Distribui espaço: um em cada canto */
+    align-items: center; /* Alinha verticalmente */
+    padding: 10px 20px;
+    background-color: white;
+    color: black;
+}
